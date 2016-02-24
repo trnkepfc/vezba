@@ -1,0 +1,33 @@
+<?php
+$niz = array('bela','crna','zelena','plava');
+
+
+echo $niz[0]."<br>".$niz[1]."<br>".$niz[2]."<br>".$niz[3]."<br><br>";
+
+print_r($niz);
+
+reverse array
+<?php
+$niz = array(1,2,3,4,5,6,7);
+print_r($niz);
+
+$rev = array_reverse($niz);
+print_r($rev);
+
+largest in array
+
+<?php
+$niz = array(1,2,3,4,5,6,7);
+//print_r($niz);
+
+$max = max($niz);
+print_r($max);
+
+sort the array
+<pre><?php
+$niz = array(7,3,45,67,1.2);
+//print_r($niz);
+
+sort($niz);
+print_r($niz);?>
+<pre>
