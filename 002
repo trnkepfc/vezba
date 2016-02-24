@@ -1,0 +1,23 @@
+<?php
+$firstname = "ratomir";
+$age = '35';
+$height = 1.75;
+
+print_r($firstname);
+print_r($age);
+print_r($height);
+var_dump($firstname);
+var_dump($age);
+var_dump($height);
+
+
+
+
+$ageInteger = (int)$age;
+print_r($ageInteger);
+
+$heightDouble = (double)$height;
+print_r($heightDouble);
+
+var_dump($ageInteger );
+var_dump($heightDouble);
